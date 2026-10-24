@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const String kBase = 'https://ortho-api.onrender.com';
+const String kBase = 'https://ortho-app.onrender.com';
 
 const Color kTeal = Color(0xFF0B6E7A);
 const Color kNaranja = Color(0xFFA84A0E);

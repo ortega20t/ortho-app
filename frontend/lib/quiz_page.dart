@@ -1,5 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
+import 'theme.dart';
 
 class QuizPage extends StatefulWidget {
   const QuizPage({super.key});
@@ -9,7 +10,7 @@ class QuizPage extends StatefulWidget {
 }
 
 class _QuizPageState extends State<QuizPage> {
-  static const String _base = 'http://localhost:8000';
+  static const String _base = kBase;
   final Dio _dio = Dio(BaseOptions(baseUrl: _base));
 
   String _modo = 'imagen'; // 'imagen' o 'uso'
